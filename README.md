@@ -3,10 +3,17 @@
 使用方法如下
 
 1、引入js主体和css样式文件
+
+``` stylus
 <link rel="stylesheet" href="lmusic.css">
 <script src="lmusic.js"></script>
+```
+
+
 
 2、初始化
+
+``` stylus
 <script>
 var source = [
 		{
@@ -26,5 +33,7 @@ var myMusic = $('.container').lmusic({
 });
 myMusic.init();//初始化即完成
 </script>
+```
+
 
 PS:由于版本简单，暂不提供更多API，简单使用
