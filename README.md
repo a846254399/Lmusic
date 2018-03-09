@@ -10,8 +10,10 @@
 ```
 
 
-
 2、初始化
+``` stylus
+<div class="container"></div> //外部容器 必须存在，class名可随意，与js代码对应即可
+```
 
 ``` stylus
 <script>
