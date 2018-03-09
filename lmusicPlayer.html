@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lmusic</title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="lmusic.css">
+	<script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+	<script src="lmusic.js"></script>
+<style>
+body{
+	background: #aaa;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+</div>
+
+
+<script>
+var source = [
+		{
+			url : 'red.mp3',
+			cover : 'http://p4.music.126.net/Z7JNUkL5cjZETD232S510w==/2540971372183769.jpg',
+			name : 'Red Lights (Radio Edit)',
+		},
+		{
+			url : 'avicii.flac',
+			cover : 'http://p3.music.126.net/YyPaRiqjA2UFz-T3IXuXbw==/1308418837090130.jpg',
+			name : 'Avicii - I Could Be the One',
+		}
+	];
+
+var myMusic = $('.container').lmusic({
+	source : source,
+	height : 120,
+});
+myMusic.init();
+
+</script>
+
+
+
+
+</body>
+</html>
+
+//--></SCRIPT>
