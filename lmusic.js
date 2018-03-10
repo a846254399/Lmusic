@@ -1,5 +1,5 @@
 /**
- * create by lukez 2017/6/27
+ * create by lukez 
  * @version 0.01
  */
 var Lmusic = function(option){
